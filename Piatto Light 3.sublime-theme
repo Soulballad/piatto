@@ -22,7 +22,7 @@
         "tab_overlap": 5,
         "tab_width": 180,
         "tab_min_width": 45,
-        "tab_height": 28,
+        "tab_height": 25,
         "mouse_wheel_switch": false
     },
     {
@@ -555,9 +555,7 @@
         "class": "sidebar_label",
         "color": [102, 102, 102],
         "shadow_color": [0, 0, 0],
-        "shadow_offset": [0, 0],
-        "font.bold": false,
-        "font.italic": false
+        "shadow_offset": [0, 0]
     },
     // Sidebar folder entry
     {

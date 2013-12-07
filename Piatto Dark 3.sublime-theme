@@ -28,7 +28,7 @@
     {
         "class": "tabset_control",
         "settings": ["enable_tab_scrolling"],
-        "content_margin": [3, 0, 3, 3]
+        "content_margin": [3, 0, 3, 0]
     },
     {
         "class": "tabset_control",
@@ -488,19 +488,12 @@
         "layer0.inner_margin": [2, 2],
         "content_margin": [8, 6, 8, 6]
     },
-    // Status bar button
+  // Status bar button
     {
         "class": "status_button",
         "min_size": [100, 0]
     },
-    // Status bar label
-    {
-        "class": "label_control",
-        "parents": [{"class": "status_bar"}],
-        "color": [247, 247, 247],
-        "shadow_color": [0, 0, 0],
-        "shadow_offset": [0, 0]
-    },
+
 
 //
 // SIDEBAR
@@ -555,9 +548,7 @@
         "class": "sidebar_label",
         "color": [210, 210, 210],
         "shadow_color": [0, 0, 0],
-        "shadow_offset": [0, 0],
-        "font.bold": false,
-        "font.italic": false
+        "shadow_offset": [0, 0]
     },
  // Sidebar folder entry
     {
